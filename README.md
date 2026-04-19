@@ -30,7 +30,8 @@ COTTER détecte une image modèle à l'écran, choisit la cible la plus proche (
 ## Installation
 
 ```bash
-# Depuis le dossier du projet (Windows PowerShell)
+git clone https://github.com/thedevnoxa/cotter
+cd cotter
 .\install.bat
 ```
 
