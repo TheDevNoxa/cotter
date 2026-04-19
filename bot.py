@@ -90,6 +90,7 @@ class ImageClickerBot:
         # Obtenir la résolution écran (pixels)
         screenshot = np.array(ImageGrab.grab())
         self.screen_h, self.screen_w = screenshot.shape[:2]
+        self.center_x = self.screen_w // 2
         self.center_y = self.screen_h // 2
         
         print(f"✓ Bot mode ultra-rapide + Tracking activé")
